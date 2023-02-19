@@ -1,0 +1,47 @@
+.outerbox{
+    display: flex;
+    /* flex-flow: column wrap;  zar wrap nhi kela tr ky honr */
+    flex-direction: column;
+    width: 300px;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    height: 250px;
+    justify-content: space-around;
+    background-color: rgb(235, 231, 231);
+}
+
+.sec1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+input{
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(219, 219, 219);
+    border: none;
+}
+
+.btn{
+    padding: 8px; /* padding vdun size kashi vadate */
+    color: aliceblue;
+    background-color: rgb(53, 151, 248); 
+    border-radius: 5px;
+}
+
+.container{
+    background-color: rgb(234, 228, 228);
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+h1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
