@@ -1,0 +1,62 @@
+.bdy{
+    background-color: rgb(231, 227, 227);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+.insta{
+
+    
+    width: 300px;
+    /* border: 1px solid blue; */
+    border-radius:5px;
+}
+
+/* .bdy{
+   
+   
+   
+} */
+
+.box1{
+    display: flex;
+    flex-flow: wrap column;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-content: center;
+
+}
+
+.box2{
+    display: flex;
+    flex-flow: column wrap;
+    height: 150px;
+    
+    justify-content: space-around;
+}
+
+input{
+    padding: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: none;
+}
+button{
+    color: white;
+    background-color: rgb(102, 178, 255);
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.lastbox{
+    padding-top: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
