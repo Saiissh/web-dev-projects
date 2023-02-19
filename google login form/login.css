@@ -1,0 +1,19 @@
+.spanemail{
+    color:red;
+    display:none;
+  }
+  
+  .email:invalid + span{
+    display:inline-block;
+    
+  }
+  
+  .spanpass{
+    color:red;
+    display:none;
+  }
+  
+  .pass:invalid ~ span{
+    display:inline-block;
+  }
+  
